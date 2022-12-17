@@ -1,5 +1,6 @@
 sudo docker run \
 -e NEXTCLOUD_DATADIR="/hive1/nextcloud/data/" \
+-e COLLABORA_SECCOMP_DISABLED=true \
 --sig-proxy=false \
 --name nextcloud-aio-mastercontainer \
 --restart always \
