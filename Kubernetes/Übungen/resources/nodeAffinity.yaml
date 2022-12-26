@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: red-deployment
+  labels:
+    app: mywebsite
+    tier: frontend
+spec:
+  replicas: 2
+  template:
+    metadata:
+      name: red
+      labels:
+        app: myapp
+    spec:
+      containers:
+        - name: red
+          image: nginx
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: node-role.kubernetes.io/master
+                operator: Exists
+  selector:
+    matchLabels:
+      app: myapp
