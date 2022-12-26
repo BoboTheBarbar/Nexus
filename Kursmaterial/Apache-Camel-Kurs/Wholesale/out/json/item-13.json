@@ -1,0 +1,19 @@
+[ {
+  "quantity" : 6,
+  "unit" : "piece",
+  "price" : 0.99,
+  "good" : "Cookies",
+  "country" : "US"
+}, {
+  "quantity" : 12,
+  "unit" : "piece",
+  "price" : 0.99,
+  "good" : "Cookies",
+  "country" : "US"
+}, {
+  "quantity" : 6,
+  "unit" : "piece",
+  "price" : 0.99,
+  "good" : "Cookies",
+  "country" : "US"
+} ]

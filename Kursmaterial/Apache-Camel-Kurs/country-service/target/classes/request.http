@@ -1,0 +1,5 @@
+# curl http://localhost:8080/supplier/?food=Potatoes
+GET http://localhost:8080/supplier/?food=Potatoes
+
+###
+

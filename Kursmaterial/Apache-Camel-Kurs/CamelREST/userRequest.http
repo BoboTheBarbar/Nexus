@@ -1,0 +1,15 @@
+###
+
+# curl -H "Content-Type:text/xml" -d @user.xml http://localhost:5555/users
+POST http://localhost:5555/users
+Content-Type: text/xml
+
+<user name="jim" password="panse" />
+
+###
+
+POST http://localhost:5555/users/add?name=jim&password=panse
+
+###
+
+POST http://localhost:5555/users/add?name=jim&password=panse

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
+
+	<bean id="xmlToSql" class="de.predic8.camel.jdbc.XmlToSql" />
+	
+	<bean id="derbyDS" class="org.apache.commons.dbcp.BasicDataSource">
+	    <property name="driverClassName" value="org.apache.derby.jdbc.ClientDriver" />
+	    <property name="url" value="jdbc:derby://localhost:1527/userDB;create=true" />
+	</bean>
+	
+  	<camelContext xmlns="http://camel.apache.org/schema/spring" trace="true">
+
+		<route>
+			<from uri="jetty:http://localhost:5555/persons/add" />
+		</route>
+
+	</camelContext>
+
+</beans>

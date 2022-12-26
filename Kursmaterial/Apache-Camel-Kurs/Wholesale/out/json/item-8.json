@@ -1,0 +1,19 @@
+[ {
+  "quantity" : 1,
+  "unit" : "piece",
+  "price" : 0.90,
+  "good" : "Salad",
+  "country" : "PL"
+}, {
+  "quantity" : 2,
+  "unit" : "piece",
+  "price" : 0.90,
+  "good" : "Salad",
+  "country" : "PL"
+}, {
+  "quantity" : 2,
+  "unit" : "piece",
+  "price" : 0.90,
+  "good" : "Salad",
+  "country" : "PL"
+} ]

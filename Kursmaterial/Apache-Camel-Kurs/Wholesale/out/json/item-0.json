@@ -1,0 +1,7 @@
+[ {
+  "quantity" : 5,
+  "unit" : "pound",
+  "price" : 0.99,
+  "good" : "Potatoes",
+  "country" : "DE"
+} ]

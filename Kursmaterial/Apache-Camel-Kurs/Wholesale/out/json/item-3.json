@@ -1,0 +1,19 @@
+[ {
+  "quantity" : 3,
+  "unit" : "pound",
+  "price" : 0.99,
+  "good" : "Potatoes",
+  "country" : "DE"
+}, {
+  "quantity" : 3,
+  "unit" : "pound",
+  "price" : 0.99,
+  "good" : "Potatoes",
+  "country" : "DE"
+}, {
+  "quantity" : 2,
+  "unit" : "pound",
+  "price" : 0.99,
+  "good" : "Potatoes",
+  "country" : "DE"
+} ]

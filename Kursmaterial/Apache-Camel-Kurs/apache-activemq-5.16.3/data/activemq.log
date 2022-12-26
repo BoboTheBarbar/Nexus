@@ -1,0 +1,23 @@
+2021-12-07 10:07:25,528 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6912e: startup date [Tue Dec 07 10:07:25 CET 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2021-12-07 10:07:26,273 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\prochnau\Projekte-lokal\Apache-Camel-Kurs\apache-activemq-5.16.3\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-12-07 10:07:26,392 | INFO  | PListStore:[C:\Users\prochnau\Projekte-lokal\Apache-Camel-Kurs\apache-activemq-5.16.3\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2021-12-07 10:07:26,518 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:DE-ADN-BWWZR73-55140-1638868046401-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-12-07 10:07:26,531 | INFO  | Listening for connections at: tcp://DE-ADN-BWWZR73:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-12-07 10:07:26,532 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-12-07 10:07:26,535 | INFO  | Listening for connections at: amqp://DE-ADN-BWWZR73:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-12-07 10:07:26,536 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-12-07 10:07:26,540 | INFO  | Listening for connections at: stomp://DE-ADN-BWWZR73:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-12-07 10:07:26,541 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-12-07 10:07:26,544 | INFO  | Listening for connections at: mqtt://DE-ADN-BWWZR73:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2021-12-07 10:07:26,545 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-12-07 10:07:26,550 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-12-07 10:07:26,604 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2021-12-07 10:07:26,711 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@5b42f544{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2021-12-07 10:07:26,763 | INFO  | Listening for connections at ws://DE-ADN-BWWZR73:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2021-12-07 10:07:26,763 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2021-12-07 10:07:26,765 | INFO  | Apache ActiveMQ 5.16.3 (localhost, ID:DE-ADN-BWWZR73-55140-1638868046401-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-12-07 10:07:26,765 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2021-12-07 10:07:27,565 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-12-07 10:07:27,566 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2021-12-07 10:29:47,499 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp178854477-78
+2021-12-07 11:02:27,447 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | Session-HouseKeeper-62e2656c-1

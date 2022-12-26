@@ -1,0 +1,13 @@
+[ {
+  "quantity" : 1,
+  "unit" : "piece",
+  "price" : 1.99,
+  "good" : "Ketchup",
+  "country" : "IT"
+}, {
+  "quantity" : 1,
+  "unit" : "piece",
+  "price" : 1.99,
+  "good" : "Ketchup",
+  "country" : "IT"
+} ]
